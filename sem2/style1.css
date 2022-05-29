@@ -1,0 +1,195 @@
+body {
+    font-family:Poppins,sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    margin: 0;
+
+}
+nav{
+
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin:0;
+    padding:15px
+
+
+}
+h1{
+    font-size: 100px;
+    color: #1ed760;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+
+}
+a:visited { text-decoration: none; color:inherit; }
+a:focus { text-decoration: none; color:inherit; }
+a:active { text-decoration: none; color:inherit; }
+.parrafo1{
+    color: #1ed760;
+    padding-bottom: 40px;
+}
+.logo{
+    padding:8px 16px;
+    vertical-align:middle;
+}
+.boton-central{
+
+    --background-base: #1ED760 !important;
+    --background-highlight: #2DE26D !important;
+    --background-press: #43E57D !important;
+    --background-elevated: #1ED760 !important;
+    --background-tinted: #1ED760 !important;
+    --background-unsafe-for-small-text: #1ED760 !important;
+    --text-base: #2941AB !important;
+    --text-subdued: #2941AB !important;
+    --text-bright-accent: #2941AB !important;
+    --text-negative: #2941AB !important;
+    --text-warning: #2941AB !important;
+    --text-positive: #2941AB !important;
+    --text-announcement: #2941AB !important;
+    --essential-base: #2941AB !important;
+    --essential-subdued: #2941AB !important;
+    --essential-bright-accent: #2941AB !important;
+    --essential-negative: #2941AB !important;
+    --essential-warning: #2941AB !important;
+    --essential-positive: #2941AB !important;
+    --essential-announcement: #2941AB !important;
+    --decorative-base: #2941AB !important;
+    --decorative-subdued: #2941AB !important;
+    background-color: var(--background-base,#1ed760);
+    color: var(--text-base,#000000);
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+}
+.encabezado1{
+    display:flex;
+    left:0;
+    top:0;
+    right:0;
+    padding:0; 
+    background-color:black;
+    justify-content: space-between;
+    min-height: 54px;
+    box-sizing: border-box;
+    
+}
+.link1{
+    padding: 28px 17px;
+}
+.link1:hover{
+    color: #1ed760;
+   
+}
+.fondo1{
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    text-align: center;
+    min-height: 846px;
+    background-color: rgb(41, 65, 171);
+    justify-content: center;
+    display: flex;
+}
+.footer1{
+
+    padding: 80px 0 50px;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.footer1:hover{
+    color: #1ed760;
+}
+.subfooter{
+    display: flex;
+    flex-direction: row; 
+    width: 50%;
+    flex: 0 0 auto;
+}
+.x1{
+    color: #919496;
+    text-transform: uppercase;
+}
+.x2{
+    color: white
+}
+.prem1{
+
+    border-radius: 4px;
+font-size: 12px;
+padding: 4px 8px;
+display: inline-block;
+font-weight: 900;
+margin: 0px 4px 10px 0px;
+margin-block: 0px 10px;
+color: rgb(255, 255, 255);
+background-color: rgb(46, 119, 208);
+}
+.prem2{
+    border-radius: 4px;
+font-size: 12px;
+padding: 4px 8px;
+display: inline-block;
+font-weight: 900;
+margin: 0px 4px 10px 0px;
+  margin-right: 4px;
+margin-block: 0px 10px;
+color: rgb(46, 119, 208);
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(46, 119, 208);
+}
+.prem3{
+    font-size: 22px;
+font-weight: bold;
+line-height: 24px;
+margin: 0px 0px 5px;
+padding: 0px;
+}
+.prem4{
+    color: rgb(0, 0, 0);
+display: block;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+margin: 0px 0px 2px;
+}
+.prem5{
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 12px 32px;
+    background-color: var(--background-base,#000);
+    color:white;
+}
+.prem6{
+    color: rgb(83, 83, 83);
+font-size: 12px;
+padding-top: 4px;
+padding-bottom: 16px;
+}
+.prem7{
+    display: grid;
+    
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    -moz-box-pack: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 16px;
+
+}
+.prem8{
+
+    padding-top: 20px; margin: 0px 16px 0px 0px;
+    font-size:14px;
+    min-height: 300px;
+    
+}
