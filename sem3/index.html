@@ -1,0 +1,63 @@
+<html>
+<head>
+
+    <style>
+      body {
+            font-family:Poppins,sans-serif;
+            font-size:15px;
+            line-height:1.5;
+             margin: 20;
+
+            }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4,200px);
+            grid-template-rows: repeat(4,200px);
+            grid-gap: 10px;
+            grid-template-areas: "a a a a"
+                        "i1 i2 i3 i4"
+                         "i5 i6 b b"
+                         "i7 i8 b b";}
+        .a {grid-area: a;}.b {grid-area: b;}
+        .i1 {grid-area: i1;}.i2 {grid-area: i2;}.i3 { grid-area: i3;}
+        .i4 {grid-area: i4;}.i5 {grid-area: i5;}.i6 {grid-area: i6;}
+        .i7 {grid-area: i7;}.i8  {grid-area: i8;}
+        #w1 {
+            width:200px;
+            opacity:0.7
+        }
+        #w {
+            width:830px
+        }
+        #wh{
+            width:410px
+        }
+    </style>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>It's been a hard Grid's night</title>
+       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+       <link rel="stylesheet" href="style1.css">
+   
+</head>
+<body>
+It's been a hard grid's night 
+    <div class="grid-container">
+        <div class="a" ><img id="w" src="warhol4.png"></div>
+        <div class="i1"><img id="w1" src="letitbe.jpeg"></div>
+        <div class="i2"><img id="w1" src="abbeyroad.jpeg"></div>
+        <div class="i3"><img id="w1" src="revolver.jpeg"></div>
+        <div class="i4"><img id="w1" src="rubber soul.jpeg"></div>
+        <div class="i5"><img id="w1" src="sgtpepper.jpeg"></div>
+        <div class="i6"><img id="w1" src="whitealbum.png"></div>
+        <div class="i7"><img id="w1" src="withthebeatles.jpeg"></div>
+        <div class="i8"><img id="w1" src="help.jpeg"></div>
+        <div class="b"><img id="wh" src="portada3.jpeg"></div>
+    </div>
+    
+
+</body>
+
+</html>
