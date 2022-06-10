@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart","annotationchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Clase de Activo', '%'],
+          ['Deuda Local',     58.3+5.9],
+          ['Deuda Internacional',  14.7],
+          ['Acciones Locales', 4.4],
+          ['Acciones Internacionales', 6.6+2.1],
+          ['Alternativos',2.2],
+          ['Otros',5.8]
+        ]);
+
+        var options = {
+            pieSliceText: 'percentage',
+          pieHole: 0.5,
+          colors:['DodgerBlue','LightSlateGray','blue','DeepSkyBlue','LightSteelBlue','MediumTurquoise'],
+          legend: { position: 'labeled' }
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 1000px; height: 600px;"></div>
+  </body>
+</html>
